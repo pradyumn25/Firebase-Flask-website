@@ -26,8 +26,7 @@ def pushdata():
                 "name": name,
                 "age": age
             })
-        status = "Data Submitted"
-    return render_template('index.html',status = status)
+    return render_template('index.html')
 
 @app.route("/update")  #---------update data-------#
 def update():
